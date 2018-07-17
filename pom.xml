@@ -6,19 +6,20 @@
 
     <groupId>rooster.game</groupId>
     <artifactId>F1</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>javazoom</groupId>
+            <artifactId>jlayer</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+    </dependencies>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <dependencies>
-                    <dependency>
-                        <groupId>javazoom</groupId>
-                        <artifactId>jlayer</artifactId>
-                        <version>1.0.1</version>
-                    </dependency>
-                </dependencies>
+
 
                 <version>2.3.2</version>
                 <configuration>
